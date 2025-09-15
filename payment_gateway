@@ -1,0 +1,55 @@
+{
+  "payments": [
+    {
+      "transaction_id": "PG1001",
+      "user_id": 5001,
+      "payment_date": "2025-01-01T10:15:00",
+      "amount": 3500.50,
+      "payment_mode": "CreditCard",
+      "status": "SUCCESS",
+      "gateway": "Razorpay",
+      "upi_id": "user5001@upi"
+    },
+    {
+      "transaction_id": "PG1002",
+      "user_id": 5002,
+      "payment_date": "2025-01-01T11:30:00",
+      "amount": 4200.00,
+      "payment_mode": "DebitCard",
+      "status": "SUCCESS",
+      "gateway": "Paytm",
+      "upi_id": "user5002@upi"
+    },
+    {
+      "transaction_id": "PG1003",
+      "user_id": 5003,
+      "payment_date": "2025-01-01T12:00:00",
+      "amount": 2800.75,
+      "payment_mode": "NetBanking",
+      "status": "FAILED",
+      "gateway": "PayU",
+      "upi_id": "user5003@upi"
+    },
+    {
+      "transaction_id": "PG1004",
+      "user_id": 5004,
+      "payment_date": "2025-01-02T09:45:00",
+      "amount": 5000.00,
+      "payment_mode": "UPI",
+      "status": "SUCCESS",
+      "gateway": "PhonePe",
+      "upi_id": "user5004@upi"
+    },
+    {
+      "transaction_id": "PG1005",
+      "user_id": 5005,
+      "payment_date": "2025-01-02T10:15:00",
+      "amount": 3900.00,
+      "payment_mode": "CreditCard",
+      "status": "SUCCESS",
+      "gateway": "Razorpay",
+      "upi_id": "user5005@upi"
+    }
+    // Continue adding more objects up to 50 for practice
+  ]
+}
